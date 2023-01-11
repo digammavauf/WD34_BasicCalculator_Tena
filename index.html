@@ -5,8 +5,74 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Basic Calculator</title>
+        <link rel="stylesheet" href="css/main.min.css">
     </head>
     <body>
-        <h1>Basic Calculator</h1>
+        <div class="container mt-4 w-50 h-50 bg-secondary text-info text-center rounded">
+            <h1>Basic Calculator</h1>
+            <div class="row p-2 bg-info rounded-bottom">
+                <div class="col-12 p-1">
+                    <input class="w-100" id="display" readonly>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">About</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">Clear</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">Undo</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">/</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">7</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">8</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">9</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">*</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">4</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">5</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">6</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">-</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">1</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">2</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">3</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">+</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">0</button>
+                </div>
+                <div class="col-3 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">.</button>
+                </div>
+                <div class="col-6 p-1">
+                    <button class="w-100" onclick="buttonClicked(this)">=</button>
+                </div>
+            </div>
+        </div>
     </body>
+    <script src="js/main.js"></script>
 </html>

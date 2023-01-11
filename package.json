@@ -1,0 +1,22 @@
+{
+  "name": "wd34_basiccalculator_tena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digammavauf/WD34_BasicCalculator_Tena.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digammavauf/WD34_BasicCalculator_Tena/issues"
+  },
+  "homepage": "https://github.com/digammavauf/WD34_BasicCalculator_Tena#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
